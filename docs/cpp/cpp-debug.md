@@ -131,6 +131,8 @@ All platforms:
 
 Windows:
 
+* Data breakpoints are not implemented by the Microsoft C/C++ extension.
+
 * GDB on Cygwin and MinGW cannot break a running process. To set a breakpoint when the application is running (not stopped under the debugger), or to pause the application being debugged, press `kbstyle(Ctrl-C)` in the application's terminal.
 * GDB on Cygwin cannot open core dumps.
 
